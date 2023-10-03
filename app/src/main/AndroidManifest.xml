@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ecommerce"
+        tools:targetApi="31">
+        <activity
+            android:name=".ProductAll"
+            android:exported="false" />
+        <activity
+            android:name=".panelUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".details_product"
+            android:exported="false" />
+        <activity
+            android:name=".Categorias"
+            android:exported="false" />
+        <activity
+            android:name=".CartPage"
+            android:exported="false" />
+        <activity
+            android:name=".categoria_Air"
+            android:exported="false" />
+        <activity
+            android:name=".productos"
+            android:exported="false" />
+        <activity
+            android:name=".entrada"
+            android:exported="false"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name=".home_Fragment"
+            android:exported="false" />
+        <activity
+            android:name=".ProductAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
